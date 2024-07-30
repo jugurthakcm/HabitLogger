@@ -1,0 +1,50 @@
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore any SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore application logs
+logs/
+*.log
+
+# Ignore compiled DLLs
+*.dll
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore compiled binary files
+*.exe
+*.out
+
+# Ignore other Visual Studio temporary files
+.vs/
+_ReSharper*/ 
+*_ReSharper.Caches/
